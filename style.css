@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+body{
+    background-color:#ebcdb7;
+}
+
+
+
+
+.navbar{
+    padding:30px;
+    margin:20px;
+
+  background-color:#ad754b;
+  border:1px solid #ddd;
+  display:flex ;
+  justify-content:flex-end;
+ 
+
+}
+.navbar a{
+    margin: 0 20px;
+    font-weight:bold;
+    padding:12px;
+  color:black;
+}
+.logo{
+    font:bolo;
+    font-size:20px;
+    margin-right:auto;
+   
+}
+.welcome-section{
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+.welcome-text h1{
+  font-size:60px;
+  font:bold;
+  margin:80px;
+  
+}
+.welcome-text p{
+ font size:30px;
+  margin:80px;
+   padding:2px; 
+line-height:1.9;
+
+
+}
+
+
+
+
+}
+.welcome-image{
+  width:700px;
+  height:auto;
+  margin:top;
+  border-radius:3000px;
+
+}
+
+.button-container{
+
+  display:flex;
+  justify-content:center;
+  margin-top:5px;
+}
+
+
+
+.button{
+  background-color:#63350d;
+ color:white;
+ white:70px;
+ height:40px;
+ font-weight:bold;
+ border-radius:5px;
+margin:10px;
+padding:10px;
+
+} 
+
+/* hadding-container our menu*/
+.hadding-container{
+
+  text-align:center;
+  
+}
+.h1-menu{
+
+  background-color:white;
+  font:bold;
+  padding:20px;
+  margin:90px;
+}
+
+
+// image style
+
+ section{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:20px;
+  background-color:#d6ae40;
+    margin:10px;
+padding:10px;
+}  
+
+
+.image-gallery{
+  
+  display:flex;
+  justify-content:center;
+align-items:center;
+  flex-wrap:wrap;
+
+}
+
+
+
+ .image-box{
+  
+
+overflow:hidden;
+text-align:center;
+margin:10px;
+
+
+} 
+
+.gallery-image{
+ max-width:350px;
+ height:auto;
+ display:block;
+
+ 
+} 
+.image-capstion{
+  font-weight:bold;
+  margin-top:10px;
+ 
+}
+
+
+
+
+
+.button{
+  background-color:#63350d;
+ color:white;
+ white:70px;
+ height:40px;
+ font-weight:bold;
+ border-radius:5px;
+margin:10px;
+padding:10px;
+}
+
+
+
+/* footer */
+
+
+.footer{
+  background-color: #63350d;
+  color:white;
+  padding:30px;
+  text-align:center;
+  position:relative;
+  bottom:0;
+  width:100%
+}
+
+
+.footer-content{
+max-width:1200px;
+margin:0 auto;
+}
+
+.footer-links{
+  margin-top:10px;
+
+}
+
+.footer-links a{
+  color:white;
+  margin:0 15px;
+  text-decoration:none;
+
+}
+.footer-links a :hover{
+  text-decoration:underline;
+}
