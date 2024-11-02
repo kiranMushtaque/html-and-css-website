@@ -49,7 +49,7 @@ align-items:center;
   
 }
 .welcome-text p{
- font size:30px;
+ font-size:30px;
   margin:80px;
    padding:2px; 
 line-height:1.9;
@@ -81,7 +81,7 @@ line-height:1.9;
 .button{
   background-color:#63350d;
  color:white;
- white:70px;
+
  height:40px;
  font-weight:bold;
  border-radius:5px;
@@ -156,7 +156,7 @@ margin:10px;
 
 
 
-.button{
+.buttons{
   background-color:#63350d;
  color:white;
  white:70px;
@@ -201,4 +201,19 @@ margin:0 auto;
 }
 .footer-links a :hover{
   text-decoration:underline;
+}
+
+@media (max-width:768px){
+
+.welcome-section{
+flex-direction:column
+
+}
+.welcome-image{
+  width:100%;
+
+}
+.navbar{
+  flex-direction:column
+}
 }
